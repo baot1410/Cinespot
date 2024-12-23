@@ -75,7 +75,7 @@ const MovieDetail = () => {
 
         <p className = "my-4">
           <span className="mr-2 font-bold">IMDB Code:</span>
-          <a href={`https://www.imdb.com/title/${curMovie.imdb_id}`} target="_blank" rel="noreferer">{curMovie.imdb_id}</a>
+          <a href={`https://www.imdb.com/title/${curMovie.imdb_id}`} target="_blank" rel="noopener noreferrer">{curMovie.imdb_id}</a>
         </p>
 
         </div>
